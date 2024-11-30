@@ -4,7 +4,8 @@
             "name": "Mac",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/qt_example/libs/qt/6.6.0/macos/lib/QtWidgets.framework/Versions/A/Headers"
+                "${workspaceFolder}/qt_example/libs/qt/6.6.0/macos/lib/QtWidgets.framework/Versions/A/Headers",
+                "${workspaceFolder}/glfw/libs/glfw-3.4/include"
             ],
             "defines": [],
             "macFrameworkPath": [
