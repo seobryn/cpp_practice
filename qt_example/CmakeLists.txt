@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.8)
+
+include(./config/qt.cmake)
+
+set("project_name" "qt_example")
+project ("${project_name}" VERSION 0.1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+SetupQt()
+
+add_executable ("${project_name}" "main.cpp")
+
+target_link_libraries ("${project_name}" PRIVATE
+     Qt6::Widgets
+     Qt6::Gui
+     Qt6::Core
+)
