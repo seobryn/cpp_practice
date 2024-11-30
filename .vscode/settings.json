@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include",
+    ],
+    "files.associations": {
+        "*.jsx": "javascriptreact",
+        "*.ejs": "html",
+        "string": "cpp",
+        "format": "cpp"
+    }
+}
